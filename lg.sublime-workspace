@@ -1,0 +1,1144 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"txt",
+				"txtrst"
+			],
+			[
+				"requ",
+				"required"
+			],
+			[
+				"brew",
+				"brew_install_smart"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"backgroundImage"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"al",
+				"albums"
+			],
+			[
+				"re",
+				"releasedate"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"rel",
+				"release_title"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"vin",
+				"vinyl_data"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"titl",
+				"titles"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"prio",
+				"priority"
+			],
+			[
+				"to",
+				"todo_prio"
+			],
+			[
+				"PRIO",
+				"todo_prio"
+			],
+			[
+				"repl",
+				"replot"
+			],
+			[
+				"column",
+				"columnCount"
+			],
+			[
+				"table",
+				"tableEdit"
+			],
+			[
+				"setMini",
+				"setMinimumSize"
+			],
+			[
+				"uns",
+				"unsignd"
+			],
+			[
+				"toL",
+				"toLocal8Bit"
+			],
+			[
+				"teVal",
+				"teValueType"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"vers_",
+				"vers_param"
+			],
+			[
+				"p",
+				"p_def"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"Fal",
+				"False"
+			],
+			[
+				"input",
+				"input"
+			],
+			[
+				"tr",
+				"tracknumbers"
+			],
+			[
+				"a",
+				"artist2"
+			],
+			[
+				"has",
+				"hasExt"
+			],
+			[
+				"direc",
+				"directories"
+			],
+			[
+				"dir_p",
+				"dir_project"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"subm",
+				"submitForm"
+			],
+			[
+				"in",
+				"includes"
+			],
+			[
+				"DOXY",
+				"DOXYGEN_FOUND"
+			],
+			[
+				"spee",
+				"speed_results"
+			],
+			[
+				"BUILD_",
+				"BUILD_UNIT_TEST"
+			],
+			[
+				"FFTW",
+				"FFTW_FOUND"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"BU",
+				"BUILD_QT"
+			],
+			[
+				"BUILD",
+				"BUILD_QT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n// https://code.google.com/p/minify/\n// http://getbootstrap.com/\nif (extension_loaded(\"zlib\") && (ini_get(\"output_handler\") != \"ob_gzhandler\")) {\n    ini_set(\"zlib.output_compression\", 1);\n}\nrequire_once('defines.php');\n?>\n<!doctype html>\n<html lang=\"en\">\n	<head>\n		<meta charset=\"utf-8\">\n	    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n		<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" />\n	    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n		<title><?php echo $site_title;?></title>\n		<meta name=\"description\" content=\"\">\n		<meta name=\"author\" content=\"Jan Beneke <mail@lightgraffiti.de>\">\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n		<link rel=\"icon\" type=\"image/png\" href=\"img/fav.png\" />\n\n		<?php\n		require_once('style.php');\n		?>\n	</head>\n\n	<body>\n	    <nav class=\"navbar navbar-default navbar-fixed-top\">\n	      <div class=\"container\">\n	        <div class=\"navbar-header\">\n	          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n	            <span class=\"sr-only\">Toggle navigation</span>\n	            <span class=\"icon-bar\"></span>\n	            <span class=\"icon-bar\"></span>\n	            <span class=\"icon-bar\"></span>\n	          </button>\n	          <a class=\"navbar-brand\" href=\"#\"><span class=\"glyphicon glyphicon-cd\" aria-hidden=\"true\"></span> <?php echo $site_title;?></a>\n	        </div>\n	        <div id=\"navbar\" class=\"navbar-collapse collapse\">\n	          <ul class=\"nav navbar-nav\">\n	            <li class=\"active\"><a href=\"#\">\n	            <span class=\"glyphicon glyphicon-th\" aria-hidden=\"true\"></span> Your Collection</a></li>\n	          </ul>\n	          <ul class=\"nav navbar-nav navbar-right\">\n	          	<li><a href=\"#\" title=\"Add a record to your collection\" data-placement=\"bottom\" data-toggle=\"tooltip\">\n	          		<span class=\"glyphicon glyphicon-plus\" aria-hidden=\"true\"></span> Add Record</a></li>\n	            <!-- <li><a href=\"../navbar/\">Default</a></li>\n	            <li><a href=\"../navbar-static-top/\">Static top</a></li>\n	            <li class=\"active\"><a href=\"./\">Fixed top <span class=\"sr-only\">(current)</span></a></li> -->\n	            <!-- <li class=\"dropdown\">\n	              <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\"><span class=\"glyphicon glyphicon-menu-hamburger\" aria-hidden=\"true\"></span> Other <span class=\"caret\"></span></a>\n	              <ul class=\"dropdown-menu\" role=\"menu\">\n	                <li><a class=\"fancybox\" href=\"#About\" title=\"About\">About</a></li>\n	                <li><a class=\"fancybox\" href=\"#Contact\" title=\"Contact\">Contact</a></li>\n	                <li><a class=\"fancybox\" href=\"#Terms\" title=\"Terms\">Terms</a></li>\n	                <li class=\"divider\"></li>\n	                <li class=\"dropdown-header\">Nav header</li>\n	                <li><a href=\"#\">Separated link</a></li>\n	                <li><a href=\"#\">One more separated link</a></li>\n	              </ul>\n	            </li> -->\n	          </ul>\n	        </div>\n	      </div>\n	    </nav>\n\n	    <div class=\"container\">\n\n			<!-- Main component for a primary marketing message or call to action -->\n			<!-- <div class=\"jumbotron\">\n				<h1>Navbar example</h1>\n				<p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>\n				<p>To see the difference between static and fixed top navbars, just scroll.</p>\n				<p>\n				  <a class=\"btn btn-lg btn-primary\" href=\"../../components/#navbar\" role=\"button\">View navbar docs &raquo;</a>\n				</p>\n			</div> -->\n\n			<!-- Sign in form -->\n			<!-- <form class=\"form-signin\">\n		        <h2 class=\"form-signin-heading\">Please sign in</h2>\n		        <label for=\"inputEmail\" class=\"sr-only\">Email address</label>\n		        <input type=\"email\" id=\"inputEmail\" class=\"form-control\" placeholder=\"Email address\" required autofocus>\n		        <label for=\"inputPassword\" class=\"sr-only\">Password</label>\n		        <input type=\"password\" id=\"inputPassword\" class=\"form-control\" placeholder=\"Password\" required>\n		        <div class=\"checkbox\">\n		          <label>\n		            <input type=\"checkbox\" value=\"remember-me\"> Remember me\n		          </label>\n		        </div>\n		        <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>\n		      </form> -->\n	    </div>\n\n	    <footer class=\"footer\">\n			<div class=\"container\">\n				<p class=\"text-muted\">\n				<a class=\"fancybox\" href=\"#About\" title=\"About\">About</a> | \n                <a class=\"fancybox\" href=\"#Contact\" title=\"Contact\">Contact</a> | \n	            <a class=\"fancybox\" href=\"#Terms\" title=\"Terms\">Terms</a></p>\n			</div>\n	    </footer>\n\n		<script type=\"text/javascript\">$(\"[data-toggle=tooltip]\").tooltip();</script>\n	</body>\n</html>",
+			"file": "index.php",
+			"file_size": 5090,
+			"file_write_time": 130720884820000000,
+			"settings":
+			{
+				"buffer_size": 4955,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "defines.php",
+			"settings":
+			{
+				"buffer_size": 1989,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.php",
+			"settings":
+			{
+				"buffer_size": 12083,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap-theme.css",
+			"settings":
+			{
+				"buffer_size": 22608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap-theme.css.map",
+			"settings":
+			{
+				"buffer_size": 43339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap-theme.min.css",
+			"settings":
+			{
+				"buffer_size": 19963,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 141414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap.css.map",
+			"settings":
+			{
+				"buffer_size": 379710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap.min.css",
+			"settings":
+			{
+				"buffer_size": 117150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/lightbox.css",
+			"settings":
+			{
+				"buffer_size": 3877,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Add",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"a",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jan/itom/sources/itom/osx_install_dependencies.sh",
+		"/Users/jan/Desktop/il.sh",
+		"/Users/jan/Desktop/osx_install_dependencies.sh",
+		"/Users/jan/itom/sources/itom/Qitom/CMakeLists.txt",
+		"/Users/jan/Desktop/install_dependencies_osx.sh",
+		"/Users/jan/Desktop/install_dependencies.sh",
+		"/Volumes/DATEN/comdirect.txt",
+		"/Users/jan/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/9376D6F8-B2FF-44EA-97D2-644C58462EFB/secure-email.html",
+		"/usr/local/Library/Formula/sphinx.rb",
+		"/Users/jan/Desktop/saxo.txt",
+		"/opt/homebrew-cask/Caskroom/qt-creator/3.3.2/Qt Creator.app/Contents/PkgInfo",
+		"/Library/WebServer/Documents/index.php",
+		"/Users/jan/Downloads/QtTest/CMakeLists.txt",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonAutoInterval.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonDataObject.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonEngine.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonItom.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonMatlab.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonPCL.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonPCL.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonPlugins.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonProxy.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonQtSignalMapper.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonRegion.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonRgba.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonSharedPointerGuard.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonStream.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythontParamConversion.h",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonWorkspace.h",
+		"/Users/jan/itom/sources/itom/Qitom/widgets/workspaceWidget.h",
+		"/Users/jan/itom/sources/itom/common/commonGlobal.h",
+		"/Users/jan/itom/sources/itom/DataObject/readWriteLock.h",
+		"/Users/jan/itom/sources/itom/Qitom/aaa.h",
+		"/Users/jan/itom/sources/itom/Qitom/helper/versionHelper.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/main.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/mainApplication.cpp",
+		"/Users/jan/itom/sources/itom/common/sources/sharedStructuresPrimitives.cpp",
+		"/Users/jan/itom/sources/itom/DataObject/dataobj.h",
+		"/Users/jan/itom/sources/itom/PointCloud/pclStructures.h",
+		"/Users/jan/itom/sources/itom/Qitom/organizer/processOrganizer.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/organizer/userOrganizer.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/widgets/scriptEditorWidget.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonAutoInterval.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonEngine.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/widgets/fileSystemDockWidget.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/widgets/mainWindow.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/python/pythonRgba.cpp",
+		"/Users/jan/itom/sources/itom/common/typeDefs.h",
+		"/Users/jan/itom/sources/itom/Qitom/helper/IOHelper.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/models/breakPointModel.cpp",
+		"/Users/jan/itom/sources/itom/Qitom/organizer/helpSystem.cpp",
+		"/Users/jan/itom/sources/itom/itom-packages/numpy_utils/transformations/transformations.c",
+		"/Users/jan/itom/sources/plugins/x3pio/x3plib/src/zlib/zutil.h",
+		"/Users/jan/itom/sources/plugins/dispWindow/dispWindow.cpp",
+		"/Users/jan/itom/sources/plugins/dispWindow/projWindow.cpp",
+		"/Users/jan/itom/sources/plugins/SerialIO/SerialIO.h",
+		"/Users/jan/itom/sources/plugins/x3pio/x3plib/src/zlib/minigzip.c",
+		"/Users/jan/itom/sources/plugins/SerialIO/SerialIO.cpp",
+		"/Users/jan/itom/sources/plugins/DummyGrabber/DummyGrabber.cpp",
+		"/Users/jan/itom/sources/plugins/DummyMotor/DummyMotor.cpp",
+		"/Users/jan/itom/sources/plugins/FileGrabber/FileGrabber.cpp",
+		"/Users/jan/itom/sources/plugins/FireGrabber/FireGrabber.cpp",
+		"/Users/jan/itom/sources/plugins/FireGrabber/FireGrabber.h",
+		"/Users/jan/itom/sources/plugins/glDisplay/glDisplay.cpp",
+		"/Users/jan/itom/sources/plugins/glDisplay/glWindow.cpp",
+		"/Users/jan/itom/sources/plugins/GWInstekPSP/dialogGWInstekPSP.cpp",
+		"/Users/jan/itom/sources/plugins/GWInstekPSP/GWInstekPSP.cpp",
+		"/Users/jan/itom/sources/plugins/LeicaMotorFocus/LeicaMotorFocus.cpp",
+		"/Users/jan/itom/sources/plugins/PI_GCS2/gcs2/include/PI_GCS2_DLL.h",
+		"/Users/jan/itom/sources/plugins/PI_GCS2/gcs2/include/PI_GCS2_DLL_PF.h",
+		"/Users/jan/itom/sources/plugins/PIPiezoCtrl/PIPiezoCtrl.cpp",
+		"/Users/jan/itom/sources/plugins/SerialIO/dialogSerialIO.cpp",
+		"/Users/jan/itom/sources/plugins/CMakeLists.txt",
+		"/Users/jan/Desktop/Itom-install-os_x.txt",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/ipLoc/README.md",
+		"/Users/jan/Dropbox/Docs/Netzwerke/Router.txt",
+		"/Volumes/DATEN/o2.txt",
+		"/Library/WebServer/Documents/js/freewall.js",
+		"/Library/WebServer/Documents/content/contact.php",
+		"/Library/WebServer/Documents/data.php",
+		"/Library/WebServer/Documents/js/lastfm.js",
+		"/Library/WebServer/Documents/js/discogs.js",
+		"/Library/WebServer/Documents/js/spotify.js",
+		"/Library/WebServer/Documents/js/fancybox/jquery.fancybox.css",
+		"/Library/WebServer/Documents/index_lim.php",
+		"/Library/WebServer/Documents/fancybox_demo.html",
+		"/Library/WebServer/Documents/js/lightbox.js",
+		"/Library/WebServer/Documents/js/modernizr.js",
+		"/Volumes/DATEN/Post - Portokasse.txt",
+		"/Users/jan/Desktop/SQUIRREL3/COMPILE",
+		"/Users/jan/Desktop/Python-3.4.2/README",
+		"/Users/jan/Downloads/SQUIRREL3/etc/test.nut",
+		"/Users/jan/Desktop/chip/chip.pro",
+		"/Users/jan/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/E6577C78-268A-4083-8A21-4C52C203A576/secure-email.html",
+		"/Users/jan/Downloads/Transmission/The Hurt Locker.srt",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/lgTimer/README.md",
+		"/Users/jan/Downloads/Transmission/Jiro Dreams of Sushi [ENG].srt",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/lgTimer/icons/glyphicons_license.txt",
+		"/Users/jan/Downloads/Nuitka-0.5.7/Changelog.rst",
+		"/Users/jan/Downloads/todo/todo.py",
+		"/Users/jan/Desktop/SWAT 4.app/Contents/Resources/drive_c/Program Files/Sierra/SWAT 4/ContentExpansion/System/Swat4X.ini",
+		"/Users/jan/Desktop/SimCity 4 Deluxe.app/Contents/MacOS/run.sh",
+		"/Users/jan/Downloads/SWAT 4.app/Contents/Resources/drive_c/Program Files/Sierra/SWAT 4/Content/System/Swat4.ini",
+		"/Users/jan/Downloads/SWAT 4.app/Contents/Resources/drive_c/Program Files/Sierra/SWAT 4/ContentExpansion/System/Swat4X.ini",
+		"/Users/jan/Downloads/Transmission/SWAT 4 Gold Edition -AnCiENT/ReadMe.txt",
+		"/Users/jan/Desktop/parseTest.c",
+		"/Users/jan/Dropbox/Docs/Ernährung/Wochenessen/Rezeptsammlung.txt",
+		"/Users/jan/Dropbox/Code/getSetGo.py",
+		"/Users/jan/Desktop/tableEdit/build/lvPlotter.sublime-project",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/tableEdit/src/3rd_party/qcustomplot.h",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/tableEdit/buildMacros.cmake",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/tableEdit/src/CMakeLists.txt",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/tableEdit/src/3rd_party/led.h",
+		"/Users/jan/Dropbox/Code/Cpp/Qt/tableEdit/CMakeLists.txt",
+		"/Users/jan/Dropbox/plotterItom/buildMacros.cmake",
+		"/Users/jan/Dropbox/Docs/Ernährung/Wochenessen/Rezeptsammlung",
+		"/Users/jan/Qt/5.3/clang_64/mkspecs/macx-clang/qmake.conf",
+		"/Library/WebServer/Documents/static.php",
+		"/Library/WebServer/Documents/readableJson.php",
+		"/Library/WebServer/Documents/defines.php",
+		"/Library/WebServer/Documents/functions.php",
+		"/Library/WebServer/Documents/project.txt",
+		"/Library/WebServer/Documents/screen.css",
+		"/Library/WebServer/Documents/defaults_template.txt",
+		"/Users/jan/Downloads/access-2008082618-2008090218.log",
+		"/Applications/cmake-3.0.0/Source/CursesDialog/form/nc_alloc.h",
+		"/Library/WebServer/Documents/style.css",
+		"/Users/jan/Downloads/Transmission/showRenamer.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jan/itom/sources/itom,*.cpp,*.h,*.hpp,*.c",
+			"/Users/jan/itom/sources/itom",
+			"/Users/jan/itom/sources/plugins",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"script",
+			"echo",
+			"Itom",
+			"brew install",
+			"\n",
+			"\n	modified:   ",
+			"defined WIN64",
+			"defined WIN32",
+			"(defined WIN32)",
+			"\"#if (defined _DEBUG) && (defined WIN32)\"",
+			"#if (defined _DEBUG) && (defined WIN32)",
+			"defined WIN32",
+			"#ifndef WIN32",
+			"#ifdef WIN32",
+			"defined WIN64",
+			"defined WIN32",
+			"WIN32",
+			"WIN32,-Q_OS_WIN32",
+			"WIN32",
+			"#ifndef _WIN32$",
+			"#ifdef _WIN32",
+			"WIN32",
+			"#ifdef WIN32$",
+			"#ifndef WIN32$",
+			"#ifdef WIN32^",
+			"WIN32",
+			"#ifndef WIN32",
+			"#ifdef WIN32",
+			"OpenMP",
+			"!",
+			"+    ",
+			"Sphinx",
+			"array",
+			"uniqueId",
+			"\"",
+			"ed",
+			"close",
+			"svg",
+			"svg-close-icon",
+			"\"",
+			"close",
+			"spacer",
+			"console",
+			"php",
+			"getDetailsVinyl",
+			"fancy",
+			"backgroundImage",
+			"cover",
+			"smaller",
+			".genre",
+			"console.",
+			"cover",
+			"h3",
+			"starts",
+			"dsplit[1]",
+			"discogs.",
+			"d.",
+			"php",
+			"getDetails",
+			"prev",
+			"\\n",
+			"$height",
+			"$width",
+			"fancybox-custom",
+			"fancybox-skin",
+			" = []",
+			"\\\"",
+			"read-more",
+			"True",
+			"debug",
+			"EnableDevTools",
+			"      ",
+			"')\n",
+			"s = removeBetween( s, ",
+			")",
+			", '')",
+			"s = s.replace( '",
+			"m_ui->plot",
+			"mui->plot",
+			"posF",
+			"iRangeDrag",
+			"setFirstCol",
+			"set",
+			"setFirst",
+			"setFirstC",
+			"TABLEEDIT_H",
+			"mergeToMatrix",
+			"tableEdit::",
+			"() ",
+			"QMap",
+			"class QCP_LIB_DECL QCustomPlot",
+			"QCPDataMap",
+			"class QCPDataMap",
+			"class QCP_LIB_DECL QCPDataMap",
+			"class QCP_LIB_DECL QCPGraph",
+			"class QCPGraph",
+			"QCPGraph",
+			"customPlot",
+			"spinBox",
+			"Dialog",
+			"json",
+			"readJson",
+			"json",
+			"writeJson",
+			"json",
+			"$_POST",
+			"design date",
+			"$_POST",
+			"radio",
+			"vers_type",
+			"		\"",
+			"tracknumbers",
+			"artist",
+			"tag",
+			"console",
+			"display",
+			"script",
+			"2px",
+			"\"",
+			"https",
+			"target_link",
+			"target_",
+			"target",
+			"FFTW_DIR",
+			"fftw_dir",
+			"main",
+			"()\n",
+			"glew"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"itom",
+			"",
+			" ",
+			"defined _WIN64",
+			"defined _WIN32",
+			"#if (defined _DEBUG) && (defined _WIN32)",
+			"#ifndef _WIN32",
+			"#ifdef _WIN32",
+			"defined _WIN64",
+			"defined _WIN32",
+			"#if !defined(Q_OS_WIN32) && !defined(Q_OS_WIN64)",
+			"#if defined(Q_OS_WIN32) || defined(Q_OS_WIN64)",
+			"#if !defined(Q_OS_WIN32) && !defined(Q_OS_WIN64)",
+			"#if defined(Q_OS_WIN32) || defined(Q_OS_WIN64)",
+			"",
+			"'",
+			"mon",
+			"src.",
+			"data.",
+			" ",
+			"$cell_height",
+			"$cell_width",
+			" = array()",
+			"'",
+			"    ",
+			", [",
+			"]",
+			")",
+			"print( '      ",
+			"_plot",
+			"localPos",
+			"__TABLEEDIT_H__",
+			"splitMatrix",
+			"",
+			"_plot",
+			"colSpin",
+			"this",
+			"Qt::Dialog",
+			"QDialog",
+			"jsonWrite",
+			"$post_data",
+			"tnbs",
+			"value",
+			"performer",
+			"_tag",
+			"\\\"",
+			"'",
+			"http",
+			"targetcl_",
+			"targetcl",
+			"mainF",
+			"",
+			"${CMAKE_CURRENT_SOURCE_DIR}/",
+			"lFrame",
+			"line",
+			"4995FF",
+			"5B69FF",
+			"B8D4D1",
+			"DBE4EA",
+			"084D60",
+			"3E575E",
+			"ADC8EC",
+			"B6CAF0",
+			"00254F",
+			"529EEA",
+			"C7D3EF",
+			"273D60",
+			"E3E7FC",
+			"C9DFDF",
+			"D4F4F8",
+			"05243F",
+			"E2EAEC",
+			"#E3E9ED",
+			"#A6D5FF"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "defines.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/bootstrap-theme.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/bootstrap-theme.css.map",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/bootstrap-theme.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/bootstrap.css.map",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/bootstrap.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/lightbox.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lg.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

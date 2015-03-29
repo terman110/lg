@@ -1,0 +1,71 @@
+/* Highlights: #428bca */
+
+body {
+	/*padding: 0;
+	margin: 0*/;
+	/*min-height: 2000px;*/
+	padding-top: 80px;
+  	/*margin-bottom: 20px;*/
+	@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Raleway:400,700);
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	color: #428bca;
+	text-decoration: none;
+}
+a:link {
+}
+a:visited {
+}
+a:active {
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+a:hover span.glyphicon {
+	color: #428bca;
+}
+
+a.navbar-brand {
+	@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+  color: #428bca;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+
+p.copyright {
+	font-size: x-small;
+}
+
+img.social {
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 0px;
+	margin-left: 10px;
+	margin-right: 1em;
+}
+
+ol.publications {
+	display: block;
+	list-style-type: decimal;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+ul.cvhighlight {
+	display: block;
+	font-size: 120%;
+}

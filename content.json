@@ -1,0 +1,155 @@
+{
+    "categories": [
+    	{ "id": 0, "title": "Home", "glyphicon": "glyphicon-home", "type": "aux"},
+    	{ "id": 1, "title": "About Me", "glyphicon": "glyphicon-user", "type": "main"},
+    	{ "id": 2, "title": "Science", "glyphicon": "glyphicon-education", "type": "main"},
+    	{ "id": 3, "title": "Software", "glyphicon": "glyphicon-floppy-disk", "type": "main"},
+    	{ "id": 4, "title": "Projects", "glyphicon": "glyphicon-equalizer", "type": "main"},
+    	{ "id": 5, "title": "Photography", "glyphicon": "glyphicon-camera", "type": "main"},
+    	{ "id": 6, "title": "Music", "glyphicon": "glyphicon-headphones", "type": "main"},
+    	{ "id": 7, "title": "Contact", "glyphicon": "glyphicon-phone", "type": "aux"},
+        { "id": 8, "title": "Disclaimer", "glyphicon": "glyphicon-pencil", "type": "aux"}
+    ],
+    "pages": [
+    	{ 
+    		"id": 0,
+    		"catId": 0, 
+    		"title": "Welcome",
+    		"subtitle": "",
+            "html" : "pages/welcome.html"
+    	},
+        { 
+            "id": 0,
+            "catId": 1, 
+            "title": "About Me",
+            "subtitle": "",
+            "html" : "pages/about.html"
+        },
+        { 
+            "id": 0,
+            "catId": 2, 
+            "title": "Overview",
+            "subtitle": "",
+            "html" : "pages/science.html"
+        },
+        { 
+            "id": 1,
+            "catId": 2, 
+            "title": "Publications",
+            "subtitle": "",
+            "html" : "pages/science_0.html"
+        },
+        { 
+            "id": 2,
+            "catId": 2, 
+            "title": "Bachelor's Thesis",
+            "subtitle": "",
+            "html" : "pages/science_1.html"
+        },
+        { 
+            "id": 3,
+            "catId": 2, 
+            "title": "Finite Differences",
+            "subtitle": "",
+            "html" : "pages/science_2.html"
+        },
+        { 
+            "id": 4,
+            "catId": 2, 
+            "title": "OpenCL",
+            "subtitle": "",
+            "html" : "pages/science_3.html"
+        },
+        { 
+            "id": 5,
+            "catId": 2, 
+            "title": "Fourier-Optics",
+            "subtitle": "",
+            "html" : "pages/science_4.html"
+        },
+        { 
+            "id": 6,
+            "catId": 2, 
+            "title": "SLM Framework",
+            "subtitle": "",
+            "html" : "pages/science_5.html"
+        },
+        { 
+            "id": 7,
+            "catId": 2, 
+            "title": "Kinect Boxing",
+            "subtitle": "",
+            "html" : "pages/science_6.html"
+        },
+        { 
+            "id": 8,
+            "catId": 2, 
+            "title": "Master's Thesis",
+            "subtitle": "",
+            "html" : "pages/science_7.html"
+        },
+        { 
+            "id": 0,
+            "catId": 3, 
+            "title": "Overview",
+            "subtitle": "",
+            "html" : "pages/software.html"
+        },
+        { 
+            "id": 0,
+            "catId": 4, 
+            "title": "Overview",
+            "subtitle": "",
+            "html" : "pages/projects.html"
+        },
+        { 
+            "id": 0,
+            "catId": 5, 
+            "title": "Overview",
+            "subtitle": "",
+            "html" : "pages/photography.html"
+        },
+        { 
+            "id": 1,
+            "catId": 5, 
+            "title": "FH Köln",
+            "subtitle": "",
+            "html" : "pages/photography_0.html"
+        },
+        { 
+            "id": 2,
+            "catId": 5, 
+            "title": "Lightgraffiti",
+            "subtitle": "",
+            "html" : "pages/photography_1.html"
+        },
+        { 
+            "id": 0,
+            "catId": 6, 
+            "title": "Overview",
+            "subtitle": "",
+            "html" : "pages/music.html"
+        },
+        { 
+            "id": 1,
+            "catId": 6, 
+            "title": "LoonySin Rehearsal Sessions",
+            "subtitle": "",
+            "html" : "pages/music_0.html"
+        },
+        { 
+            "id": 0,
+            "catId": 7, 
+            "title": "Overview",
+            "subtitle": "",
+            "html" : "pages/contact.html"
+        },
+        { 
+            "id": 0,
+            "catId": 8, 
+            "title": "Overview",
+            "subtitle": "",
+            "html" : "pages/disclaimer.html"
+        }
+    ]
+}
