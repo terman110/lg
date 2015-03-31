@@ -85,7 +85,7 @@ if($curPag < 0 || $curPag > $content->getNPages($curCat)-1)
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> Other <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> More <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 						    <?php
 								foreach($content->getCategories() as $i => $cat) {

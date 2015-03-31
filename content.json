@@ -4,9 +4,9 @@
     	{ "id": 1, "title": "About Me", "glyphicon": "glyphicon-user", "type": "main"},
     	{ "id": 2, "title": "Science", "glyphicon": "glyphicon-education", "type": "main"},
     	{ "id": 3, "title": "Software", "glyphicon": "glyphicon-floppy-disk", "type": "main"},
-    	{ "id": 4, "title": "Projects", "glyphicon": "glyphicon-equalizer", "type": "main"},
-    	{ "id": 5, "title": "Photography", "glyphicon": "glyphicon-camera", "type": "main"},
-    	{ "id": 6, "title": "Music", "glyphicon": "glyphicon-headphones", "type": "main"},
+    	{ "id": 4, "title": "Projects", "glyphicon": "glyphicon-equalizer", "type": "aux"},
+    	{ "id": 5, "title": "Photography", "glyphicon": "glyphicon-camera", "type": "aux"},
+    	{ "id": 6, "title": "Music", "glyphicon": "glyphicon-headphones", "type": "aux"},
     	{ "id": 7, "title": "Contact", "glyphicon": "glyphicon-phone", "type": "aux"},
         { "id": 8, "title": "Disclaimer", "glyphicon": "glyphicon-pencil", "type": "aux"}
     ],
